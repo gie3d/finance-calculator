@@ -71,10 +71,10 @@ export default class RetirementInvestmentPlan extends React.Component {
 							</div>
 							<div className="field">
 								<InputRow
-									title="อัตราเติบโตของการลงทุนที่คาดหวัง (%)"
+									title="อัตราเติบโตของการลงทุนที่คาดหวังต่อปี (%)"
 									type="number"
 									labelSize="s"
-									placeholder="อัตราเติบโตของการลงทุนที่คาดหวัง (%)"
+									placeholder="อัตราเติบโตของการลงทุนที่คาดหวังต่อปี (%)"
 									keyProps="expectedPercentageProfitPerYear"
 									onInputChange={this.onChange}
 									value={this.state.expectedPercentageProfitPerYear}
